@@ -1,0 +1,3 @@
+com\flexicore\watchdog\request\WatchDogKeepAlive.class
+com\flexicore\watchdog\rest\WatchDogRESTService.class
+com\flexicore\watchdog\service\WatchDogService.class
