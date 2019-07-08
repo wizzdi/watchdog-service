@@ -37,7 +37,6 @@ public class WatchDogRESTService implements RestServicePlugin {
 
 
     @GET
-    @Produces("application/json")
     @Path("/failOnServiceNotAlive/{serviceUnique}/{failThreshold}")
     @Operation(summary = "failOnServiceNotAlive", description = "Creates Customer")
     public boolean failOnServiceNotAlive(
