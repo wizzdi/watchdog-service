@@ -6,7 +6,7 @@
 
     <groupId>com.flexicore</groupId>
     <artifactId>watchdog-service</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <version.jackson>2.9.5</version.jackson>
@@ -22,7 +22,7 @@
         <repository>
             <id>shekel-local</id>
             <name>shekel-local</name>
-            <url>http://138.201.191.203:8083/artifactory/shekel-local</url>
+            <url>https://artifactory.wizzdi.com/artifactory/shekel-local</url>
         </repository>
 
     </distributionManagement>
@@ -30,25 +30,31 @@
         <pluginRepository>
             <id>flexicore-local</id>
             <name>flexicore-local</name>
-            <url>http://138.201.191.203:8083/artifactory/flexicore-local</url>
+            <url>https://artifactory.wizzdi.com/artifactory/flexicore-local</url>
         </pluginRepository>
     </pluginRepositories>
     <repositories>
         <repository>
             <id>flexicore-local</id>
             <name>flexicore-local</name>
-            <url>http://138.201.191.203:8083/artifactory/flexicore-local</url>
+            <url>https://artifactory.wizzdi.com/artifactory/flexicore-local</url>
         </repository>
         <repository>
             <id>shekel-local</id>
             <name>shekel-local</name>
-            <url>http://138.201.191.203:8083/artifactory/shekel-local</url>
+            <url>https://artifactory.wizzdi.com/artifactory/shekel-local</url>
         </repository>
     </repositories>
 
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.eclipse.microprofile.health</groupId>
+            <artifactId>microprofile-health-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>

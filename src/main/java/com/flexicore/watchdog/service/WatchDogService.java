@@ -4,14 +4,19 @@ import com.flexicore.annotations.plugins.PluginInfo;
 import com.flexicore.interfaces.ServicePlugin;
 import com.flexicore.watchdog.request.WatchDogKeepAlive;
 
+import javax.inject.Inject;
 import javax.ws.rs.BadRequestException;
 import javax.ws.rs.ServiceUnavailableException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Logger;
 
 @PluginInfo(version = 1)
 public class WatchDogService implements ServicePlugin {
 
+
+    @Inject
+    private Logger logger;
 
     private static Map<String,Long> services=new ConcurrentHashMap<>();
 
@@ -27,10 +32,17 @@ public class WatchDogService implements ServicePlugin {
         }
     }
 
+    public static Map<String, Long> getServices() {
+        return services;
+    }
+
     public boolean failOnServiceNotAlive(String serviceUnique, long failThreshold) {
         Long lastKeepAlive=services.get(serviceUnique);
         if(lastKeepAlive==null || System.currentTimeMillis()-lastKeepAlive > failThreshold){
             throw new ServiceUnavailableException("Service "+serviceUnique +" last keep alive was at "+lastKeepAlive +" current time is "+System.currentTimeMillis());
+        }
+        else{
+            logger.info("service " + serviceUnique +" last alive at "+lastKeepAlive +" ");
         }
         return true;
     }
