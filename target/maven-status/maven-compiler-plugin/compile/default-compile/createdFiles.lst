@@ -1,5 +1,0 @@
-com\flexicore\watchdog\request\WatchDogKeepAlive.class
-com\flexicore\watchdog\rest\WatchDogRESTService.class
-com\flexicore\watchdog\config\Config.class
-com\flexicore\watchdog\service\WatchDogService.class
-com\flexicore\watchdog\health\WatchDogHealth.class

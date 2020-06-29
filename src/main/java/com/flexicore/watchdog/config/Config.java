@@ -1,31 +1,39 @@
 package com.flexicore.watchdog.config;
 
-import com.flexicore.annotations.InjectProperties;
 import com.flexicore.annotations.plugins.PluginInfo;
 import com.flexicore.interfaces.InitPlugin;
 
-import javax.inject.Inject;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-@PluginInfo(version = 1, autoInstansiate = true, order = 90)
-public class Config implements InitPlugin {
+import com.flexicore.interfaces.ServicePlugin;
+import org.pf4j.Extension;
+import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.context.event.EventListener;
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 
-    private static AtomicBoolean init = new AtomicBoolean(false);
+@PluginInfo(version = 1)
+@Extension
+@Component
+public class Config implements ServicePlugin {
 
-    @Inject
-    @InjectProperties
-    private Properties properties;
+	private static AtomicBoolean init = new AtomicBoolean(false);
 
-    private static long defaultFailThreshold=60000;
-    @Override
-    public void init() {
-        if (init.compareAndSet(false, true)) {
-            defaultFailThreshold=Long.parseLong(properties.getProperty("defaultFailThreshold",defaultFailThreshold+""));
-        }
-    }
+	@Autowired
+	private Environment properties;
 
-    public static long getDefaultFailThreshold() {
-        return defaultFailThreshold;
-    }
+	private static long defaultFailThreshold = 60000;
+	@EventListener
+	public void init(ContextRefreshedEvent e) {
+		if (init.compareAndSet(false, true)) {
+			defaultFailThreshold = Long.parseLong(properties.getProperty(
+					"defaultFailThreshold", defaultFailThreshold + ""));
+		}
+	}
+
+	public static long getDefaultFailThreshold() {
+		return defaultFailThreshold;
+	}
 }

@@ -1,2 +1,0 @@
-uuid=com.flexicore.watchdog-service
-version=1.0.1
