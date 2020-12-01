@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wizzdi</groupId>
     <artifactId>watchdog-service</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>watchdog-service</name>
     <description>FlexiCore service plugin , watchdogs external services</description>
     <url>https://wizzdi.com</url>
