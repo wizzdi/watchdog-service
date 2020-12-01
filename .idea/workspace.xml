@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1333615e-6fda-4035-b373-f0be44a66367" name="Default Changelist" comment="1.0.2 - spring">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/health/WatchDogHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/health/WatchDogHealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/service/WatchDogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/service/WatchDogService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
