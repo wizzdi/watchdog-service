@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,26 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1333615e-6fda-4035-b373-f0be44a66367" name="Default Changelist" comment="1.1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1333615e-6fda-4035-b373-f0be44a66367" name="Default Changelist" comment="1.0.2 - spring">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/config/Config.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/health/WatchDogHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/health/WatchDogHealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/request/WatchDogKeepAlive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/request/WatchDogKeepAlive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/rest/WatchDogRESTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/rest/WatchDogRESTService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/service/WatchDogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flexicore/watchdog/service/WatchDogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flexicore/watchdog/request/WatchDogKeepAlive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flexicore/watchdog/rest/WatchDogRESTService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/flexicore/watchdog/service/WatchDogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flexicore-manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-watchdog-service-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/watchdog-service-1.0.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +54,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="aa2b198e-fb89-4a64-9ab3-7250735e77e6" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -87,7 +85,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../transection-service-migrate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../messaging-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -133,6 +131,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -150,7 +149,11 @@
       <workItem from="1591521595358" duration="1264000" />
       <workItem from="1592142992330" duration="543000" />
       <workItem from="1592208695723" duration="1976000" />
-      <workItem from="1593427941721" duration="1919000" />
+      <workItem from="1593427941721" duration="2006000" />
+      <workItem from="1599123082792" duration="1557000" />
+      <workItem from="1600072061344" duration="764000" />
+      <workItem from="1600083212991" duration="1779000" />
+      <workItem from="1606743019660" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1562590908991</created>
@@ -173,11 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592143114175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.0.2 - spring">
+      <created>1593443343676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593443343676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -226,40 +246,37 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="1.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.0" />
+    <MESSAGE value="1.0.2 - spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.2 - spring" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1591521989894">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591521989894" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593431030359">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1600072141309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593431030359" />
-    <state width="1921" height="288" key="GridCell.Tab.0.bottom" timestamp="1591561757774">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591561757774" />
-    <state width="1921" height="288" key="GridCell.Tab.0.center" timestamp="1591561757774">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591561757774" />
-    <state width="1921" height="288" key="GridCell.Tab.0.left" timestamp="1591561757774">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591561757774" />
-    <state width="1921" height="288" key="GridCell.Tab.0.right" timestamp="1591561757774">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591561757774" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1593428047667">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1600072141309" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606743041090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593428047667" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592143118088">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606743041090" />
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom" timestamp="1600084639430">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592143118088" />
+    <state width="1537" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600084639430" />
+    <state width="1537" height="217" key="GridCell.Tab.0.center" timestamp="1600084639429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600084639429" />
+    <state width="1537" height="217" key="GridCell.Tab.0.left" timestamp="1600084639429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600084639429" />
+    <state width="1537" height="217" key="GridCell.Tab.0.right" timestamp="1600084639430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600084639430" />
+    <state x="482" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1600072083736">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="146" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600072083736" />
   </component>
 </project>

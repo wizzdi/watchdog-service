@@ -8,18 +8,17 @@ import javax.ws.rs.BadRequestException;
 import javax.ws.rs.ServiceUnavailableException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.logging.Logger;
 import org.pf4j.Extension;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @PluginInfo(version = 1)
 @Extension
 @Component
 public class WatchDogService implements ServicePlugin {
 
-	@Autowired
-	private Logger logger;
+	private static final Logger logger= LoggerFactory.getLogger(WatchDogService.class);
 
 	private static Map<String, Long> services = new ConcurrentHashMap<>();
 
